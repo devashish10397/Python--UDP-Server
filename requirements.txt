@@ -1,0 +1,17 @@
+socket: For handling socket communication.
+time: To introduce delays.
+getopt: For command-line argument parsing.
+json: For parsing JSON input.
+Crypto.PublicKey: From the Crypto library for handling RSA keys.
+Crypto.Signature.pkcs1_15: From the Crypto library for handling RSA signatures.
+sys: For system-related functions.
+threading: For creating and managing threads.
+hashlib: For various hashing functions.
+Crypto.Hash.SHA256: From the Crypto library for SHA-256 hashing.
+Crypto.PublicKey.RSA.RsaKey: From the Crypto library for RSA key handling.
+struct: For working with structured binary data.
+cryptography.hazmat.backends.default_backend: For specifying the default cryptographic backend.
+cryptography.hazmat.primitives.asymmetric.padding: For asymmetric padding.
+zlib: For data compression.
+cryptography.hazmat.primitives: For various cryptographic primitives.
+cryptography.hazmat.primitives.asymmetric.rsa: For RSA-related functionality.
