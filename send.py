@@ -8,9 +8,11 @@ random.seed(0x1337)
 with open('payload_dump.bin', 'rb') as f:
     payloads = pickle.load(f, encoding="bytes")
 
+# socket for sending
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 count = 0
-print('sending')
+# debug
+# print('sending')
 for payload in payloads:
     print('count: ', count)
     print(payload)
